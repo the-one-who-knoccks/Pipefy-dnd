@@ -15,11 +15,16 @@ export default createGlobalStyle`
   }
 
   body {
+    display: flex;
+    justify-content: center;
     font: 14px 'Roboto', sans-serif;
-    background: #ecf1f8;
-    color: #333;
+    background: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
+    transition: all 0.25s linear;
     -webkit-font-smoothing: antialiased !important;
+
   }
+
 
   ul {
     list-style: none;

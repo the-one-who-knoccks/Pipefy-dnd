@@ -24,13 +24,15 @@ export const Container = styled.div`
       font-weight: 500;
       font-size: 16px;
       padding: 0 10px;
+      color: ${({ theme }) => theme.title};
+      
     }
 
     button {
       width: 42px;
       height: 42px;
       border-radius: 18px;
-      background: #3b5bfd;
+      background: #7159C1;
       border: 0;
       cursor: pointer;
 

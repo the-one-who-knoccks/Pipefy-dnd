@@ -56,7 +56,7 @@ function Card({ data, index, listIndex }) {
   dragRef(dropRef(ref));
 
   return (
-    <Container ref={ref} isDragging={isDragging}>
+    <Container ref={ref} DarkTheme={data.DarkTheme} isDragging={isDragging}>
       <header>
         {data.labels.map(label => <Label key={label} color={label} />)}
       </header>

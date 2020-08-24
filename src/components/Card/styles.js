@@ -1,8 +1,9 @@
 import styled, { css } from 'styled-components';
+// import { lightTheme, darkTheme } from '../../styles/theme';
 
 export const Container = styled.div`
   position: relative;
-  background: #FFF;
+  background: ${({ theme }) => theme.cardBackground};
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 15px;
@@ -41,6 +42,7 @@ export const Container = styled.div`
     }
 
   `}
+  
 `;
 
 export const Label = styled.span`
