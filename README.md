@@ -18,7 +18,7 @@
  
  $ yarn start
  ```
- 
+   
  Thanks to @rocketseat @guilhermerodz
 
 
