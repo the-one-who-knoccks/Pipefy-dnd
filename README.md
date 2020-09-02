@@ -4,8 +4,9 @@
   <img src="https://ik.imagekit.io/hld13bjzb1/Peek_2020-08-23_22-27_ltvKdpRZ6.gif">
 <h1>
 
-## Veja como rodar a aplicação:
 
+## Veja como rodar a aplicação:
+ 
 ```bash  
 
 # Clone o respositório com o comando:
